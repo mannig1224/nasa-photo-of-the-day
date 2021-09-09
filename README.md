@@ -46,8 +46,8 @@ This project was put together using create-react-app (CRA). You will not need to
 
 **File structure**
 
-- [ ] Take a look at your planned components. Create the folders and files you need for each component.
-- [ ] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
+- [x] Take a look at your planned components. Create the folders and files you need for each component.
+- [x] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
 **Fetching the Data**
 
@@ -76,8 +76,8 @@ Now is the time to build out your other components. Compose your UI, and then pa
 
 #### _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
-- [ ] Display the APOD data in different components that are composed together to build your UI.
+- [x] Use the effect hook to fetch the APOD data when the component mounts.
+- [x] Display the APOD data in different components that are composed together to build your UI.
 
 #### Pro Tips
 

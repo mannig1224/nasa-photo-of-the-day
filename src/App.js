@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import "./App.css";
 import {apiKey, url} from './config';
+import NasaCard from "./components/NasaCard";
 
 function App() {
   const [nasaData, setNasaData] = useState();
@@ -21,13 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      {// Display a loading message while the data is fetching
-      (!nasaData) ? <h3>Loading...</h3> : <h2>{nasaData.title}</h2>}
-      {// Display a loading message while the data is fetching
-      (!nasaData) ? <h3>Loading...</h3> : <img src={nasaData.hdurl} alt={'stuff'}></img>}
-      {// Display a loading message while the data is fetching
-        (!nasaData) ? <h3>Loading...</h3> : <h3>{nasaData.explanation}</h3>}
-      
+      <NasaCard nasaData={nasaData}/>
     </div>
   );
 }
